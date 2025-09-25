@@ -153,6 +153,8 @@ namespace homework2
             {
 
             }
+            Console.WriteLine(allVolume);
+            Console.WriteLine(allAlc);
             Console.ReadKey();
         }
     }
