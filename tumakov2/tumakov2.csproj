@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="enums\bankEnum.cs" />
+    <Compile Include="enums\vuzEnum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="structs\bankStruct.cs" />
+    <Compile Include="structs\workerStruct.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

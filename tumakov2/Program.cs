@@ -1,7 +1,8 @@
 ﻿using System;
 using bankEnum;
 using bankStruct;
-
+using workerStruct;
+using vuzEnum;
 
 namespace tumakov2
 {
@@ -14,7 +15,7 @@ namespace tumakov2
             bank1.accType = Convert.ToString(type.Current);
             bank bank2 = new bank();
             bank1.accType = Convert.ToString(type.Savings);
-            Console.WriteLine(bank1.accType, bank2.accType);
+            Console.WriteLine($"{bank1.accType}, {bank2.accType}");
             Console.WriteLine();
 
 
@@ -26,8 +27,12 @@ namespace tumakov2
 
 
             Console.WriteLine("Домашнее задание 3.1");
+            worker worker1 = new worker();
+            worker1.name = "Петя";
+            worker1.vuz = Convert.ToString(vuzName.КХТИ);
+            Console.WriteLine($"{worker1.name},{worker1.vuz}");
 
-
+            Console.ReadKey();
 
 
         }
